@@ -12,7 +12,8 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #4d5ae5;}
+    color: #4d5ae5;
+}
 
 .logo-studio {color: #2e2f42;}
 
@@ -21,8 +22,11 @@ font-weight: 700;
     color: #404bbf;
 }
 
+.header {border-bottom: 1px solid #e7e9fc;}
+
 .header-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-nav-list {display: flex;
@@ -211,7 +215,11 @@ padding-bottom: 100px;}
 .footer-section .list-text {color: #F4F4FD;
 margin-top: 16px;}
 
-.footer-section .logo-studio {color: #F4F4FD;}
+ .footer-section .logo-studio{color: #F4F4FD;}
+
+.footer-section .logo-web,
+ .logo-studio {display: inline-block;
+margin-bottom: 16px;}
 
 .footer-container {
     display: flex;
