@@ -219,11 +219,11 @@ flex-wrap: wrap;
 gap: 48px 24px;}
 
 .weird-div-also {padding: 32px 16px;
-    1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.portfolio-item {border: 1px solid #e7e9fc;
+.portfolio-item {
     width: 360px;
     height: 420px;}
 
@@ -237,7 +237,9 @@ padding-top: 100px;
 padding-bottom: 100px;}
 
 .footer-text {color: #F4F4FD;
-margin-top: 16px;}
+margin-top: 16px;
+max-width: 264px;
+}
 
  .footer-section .logo-studio{color: #F4F4FD;}
 
@@ -249,5 +251,4 @@ margin-bottom: 16px;}
     flex-direction: column;
 }
 
-.footer-section .list-text {max-width: 264px;}
         
