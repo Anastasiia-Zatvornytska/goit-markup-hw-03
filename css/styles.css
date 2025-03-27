@@ -141,7 +141,7 @@ border-radius: 4px;
 .section-two-list {display: flex;
 gap: 24px;}
 
-.section-two-item {flex-basis: calc(100% - 72px) / 4;}
+.section-two-item {width: calc(100% - 72px) / 4;}
 
 .list-title {font-weight: 500;
     font-size: 20px;
@@ -218,6 +218,11 @@ padding-bottom: 120px;}
 flex-wrap: wrap;
 gap: 48px 24px;}
 
+.weird-div-also {padding: 32px 16px;
+    1px solid #e7e9fc;
+    border-top: none;
+}
+
 .portfolio-item {border: 1px solid #e7e9fc;
     width: 360px;
     height: 420px;}
@@ -231,10 +236,13 @@ margin-bottom: 8px;}
 padding-top: 100px;
 padding-bottom: 100px;}
 
-.footer-section .list-text {color: #F4F4FD;
+.footer-text {color: #F4F4FD;
 margin-top: 16px;}
 
  .footer-section .logo-studio{color: #F4F4FD;}
+
+ .footer-logo {display: inline-block;
+margin-bottom: 16px;}
 
 .footer-container {
     display: flex;
