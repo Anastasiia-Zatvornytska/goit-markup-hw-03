@@ -66,7 +66,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
-color: #2e2f42;}
+color: #2e2f42;
+padding: 24px 0;}
 
 .nav-element {
     color: #2e2f42;
@@ -90,8 +91,7 @@ color: #2e2f42;}
 .adress-element:focus {color: #404bbf;}
 
 .section-one {background-color: #2E2F42;
-padding-top: 188px;
-    padding: 188px 0}
+    padding: 188px 0;}
 
 .section-one .main-title {font-weight: 700;
     font-size: 56px;
@@ -141,20 +141,22 @@ border-radius: 4px;
 .section-two-list {display: flex;
 gap: 24px;}
 
-.section-two-item {flex-basis: calc(100% - 72) / 4;}
+.section-two-item {flex-basis: calc(100% - 72px) / 4;}
 
 .list-title {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-margin-bottom: 8px;}
+margin-bottom: 8px;
+text-align: center;}
 
 .list-text {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+text-align: center;}
 
 .section-title {font-weight: 700;
     font-size: 36px;
@@ -170,6 +172,8 @@ margin-bottom: 8px;}
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.weird-div {padding: 32px 0;}
 
 .visually-hidden {
     position: absolute;
