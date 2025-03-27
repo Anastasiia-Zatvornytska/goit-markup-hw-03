@@ -189,7 +189,7 @@ text-align: center;}
 
 .section-three-list {display: flex;
 gap: 24px;
-flex-basis: calc(100% - 72) / 4;}
+flex-basis: calc(100%-72)/4;}
 
 .photo-team {border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
@@ -243,7 +243,7 @@ max-width: 264px;
 
  .footer-section .logo-studio{color: #F4F4FD;}
 
- .footer-logo {display: inline-block;
+ .logo-web {display: inline-block;
 margin-bottom: 16px;}
 
 .footer-container {
