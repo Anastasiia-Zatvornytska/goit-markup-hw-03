@@ -141,7 +141,7 @@ border-radius: 4px;
 .section-two-list {display: flex;
 gap: 24px;}
 
-.section-two-item {width: calc(100% - 72px) / 4;}
+.section-two-item {flex-basis: calc((100% - 72px) / 4);}
 
 .list-title {font-weight: 500;
     font-size: 20px;
