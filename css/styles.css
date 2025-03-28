@@ -4,7 +4,7 @@ background-color: #ffffff;}
 
 ul {list-style-type: none;}
 
-.logo-web {font-family: "Raleway",
+header .logo-web {font-family: "Raleway",
     sans-serif;
 font-weight: 700;
     font-size: 18px;
@@ -13,6 +13,7 @@ font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -36,7 +37,8 @@ gap: 40px;
 }
 
 .header-adress-list {display: flex;
-gap: 40px;}
+gap: 40px;
+padding: 24px 0;}
     
 .contact-info {margin-left: auto;
 }
