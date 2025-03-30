@@ -64,7 +64,9 @@ img {display: block;}
 
 .contact-info {font-style: normal;}
 
-.nav-element {font-weight: 500;
+.nav-element {
+    display: block;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -73,17 +75,16 @@ color: #2e2f42;
 padding: 24px 0;
 }
 
-.nav-element {
-    color: #2e2f42;
-}
-
 .nav-element:hover,
 .nav-element:focus,
 .nav-element:active {
     color: #404bbf;
 }
 
-.adress-element {font-weight: 400;
+.adress-element {
+    display: block;
+    padding: 24px 0;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
