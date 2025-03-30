@@ -34,12 +34,11 @@ font-weight: 700;
 
 .header-nav-list {display: flex;
 gap: 40px;
-padding: 24px 0;
 }
 
 .header-adress-list {display: flex;
 gap: 40px;
-padding: 24px 0;}
+}
     
 .contact-info {margin-left: auto;
 }
